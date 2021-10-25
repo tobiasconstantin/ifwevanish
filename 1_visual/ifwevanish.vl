@@ -17,11 +17,6 @@
         <Canvas Id="Ah9OKfKdQn3Nh6xgJxXcQU" CanvasType="Group" />
         <Patch Id="ObS9EBPnLISOqJleaKhpOl" Name="Create" />
         <Patch Id="NFyiWs4osFeOL1oUuQRrLG" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="JTlWjXGtbxgMKvGDU12pAE">
           <Fragment Id="RlZZI6gHif4MbJ3yd0OYoO" Patch="ObS9EBPnLISOqJleaKhpOl" Enabled="true" />
           <Fragment Id="L0NivX44WVzPaA5tr728Lc" Patch="NFyiWs4osFeOL1oUuQRrLG" Enabled="true" />
@@ -30,4 +25,6 @@
     </Node>
   </Patch>
   <NugetDependency Id="EZbYUzVjFqqLoLHLRV0j5w" Location="VL.CoreLib" Version="2021.4.0-0568-gba571a190a" />
+  <DocumentDependency Id="DzN95We5WPvMm89czwpNlI" Location="./CORE/Core.vl" />
+  <DocumentDependency Id="NBXbSLMdMwBPM8Nq3SdXIq" Location="./Components/Components.vl" />
 </Document>
