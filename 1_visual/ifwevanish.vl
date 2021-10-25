@@ -14,13 +14,36 @@
         <FullNameCategoryReference ID="Primitive" />
       </p:NodeReference>
       <Patch Id="JhEpowSW7WZLfePY3F2KNC">
-        <Canvas Id="Ah9OKfKdQn3Nh6xgJxXcQU" CanvasType="Group" />
+        <Canvas Id="Ah9OKfKdQn3Nh6xgJxXcQU" CanvasType="Group">
+          <Node Bounds="269,593,339,19" Id="OddPBfEHlTxQRNr8cP70hM">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Core.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Rendering" />
+            </p:NodeReference>
+            <Pin Id="GKOtrlp3aaVNYSQACMiGyc" Name="ActivateSplitscreen" Kind="InputPin" />
+            <Pin Id="Kop1Ml3e893LpERIby9pQB" Name="Resolution" Kind="InputPin" />
+            <Pin Id="ItheY5mN537LamD9RC1KND" Name="LayerInput1" Kind="InputPin" />
+            <Pin Id="U7ojrf3xUfyLd98thy33o0" Name="Texture1" Kind="InputPin" />
+            <Pin Id="M9rcEdO9gGDPK7UQjUYC4t" Name="LayerInput 3" Kind="InputPin" />
+            <Pin Id="NXP2QIZS6aUOQ3rUNPooPa" Name="Texture2" Kind="InputPin" />
+          </Node>
+          <Pad Id="QX3hflbTJ7mLTe7leOCznk" SlotId="Bu1oJqD1qlpQUqmb2XXUDm" Bounds="-307,-53" />
+          <Pad Id="PE7UPAmMjpOPpkBoNgkvee" SlotId="Bu1oJqD1qlpQUqmb2XXUDm" Bounds="339,567" />
+          <Pad Id="KgsySxr1KLLOfoE9n8Xk0d" Comment="Resolution" Bounds="-307,-115,35,28" ShowValueBox="true" isIOBox="true" Value="3840, 1080">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Int2" />
+            </p:TypeAnnotation>
+          </Pad>
+        </Canvas>
         <Patch Id="ObS9EBPnLISOqJleaKhpOl" Name="Create" />
         <Patch Id="NFyiWs4osFeOL1oUuQRrLG" Name="Update" />
         <ProcessDefinition Id="JTlWjXGtbxgMKvGDU12pAE">
           <Fragment Id="RlZZI6gHif4MbJ3yd0OYoO" Patch="ObS9EBPnLISOqJleaKhpOl" Enabled="true" />
           <Fragment Id="L0NivX44WVzPaA5tr728Lc" Patch="NFyiWs4osFeOL1oUuQRrLG" Enabled="true" />
         </ProcessDefinition>
+        <Slot Id="Bu1oJqD1qlpQUqmb2XXUDm" Name="Resolution" />
+        <Link Id="Tnq2qUIoNcPNdmtQ6aAYP2" Ids="PE7UPAmMjpOPpkBoNgkvee,Kop1Ml3e893LpERIby9pQB" />
+        <Link Id="LKJEOVQSXCnMtpMunjTgZ0" Ids="KgsySxr1KLLOfoE9n8Xk0d,QX3hflbTJ7mLTe7leOCznk" />
       </Patch>
     </Node>
   </Patch>
